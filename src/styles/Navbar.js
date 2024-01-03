@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const NavbarStyled = styled.nav`
+export const StyledNavbar = styled.div`
   display: flex;
   flex-direction: row;
   margin: 0.2rem 0;
@@ -8,18 +8,8 @@ export const NavbarStyled = styled.nav`
   justify-content: space-between;
   align-items: center;
   position: sticky;
+  top: 0;
   width: 100%;
-
-  @media (max-width: 500px){
-    /* Smartphone display */
-    height: 75px;
-    border: 1px solid blue;
-  }
-
-  @media (min-width: 501px){
-    border: 1px solid black;
-    height: 50px;
-  }
 `
 
 export const LogoNavbar = styled.div`
@@ -34,13 +24,53 @@ export const LogoNavbar = styled.div`
 
     @media (max-width: 500px){
       /* Smartphone display */
-      max-width: 60px;
-      max-height: 60px;
+      margin: 0;
+      max-width: 50px;
+      max-height: 50px;
     }
 
     @media (min-width: 501px){
       max-width: 50px;
       max-height: 50px;
+      margin: 0.2rem;
+    }
   }
+
+  span{
+    @media (max-width: 500px){
+      /* Smartphone display */
+      font-size: 20px;
+      font-weight: 500;
+      margin-left: 0.5rem;
+    }
+
+    @media (min-width: 501px){
+      font-size: 24px;
+      font-weight: 600;
+      margin-left: 0.5rem;
+    }
   }
+
 `
+
+export const LinkNavbar = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0.3rem;
+  padding: 0 0.2rem;
+
+  a {
+    padding: 0 0.5rem;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  /* Media query for smaller screens */
+  @media screen and (max-width: 555px) {
+    display: none;
+  }
+`;

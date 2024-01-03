@@ -4,7 +4,6 @@ export const LandPageContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0.5rem;
   padding: 3rem;
   @media (min-width: 768px){
     // Progrise Key Design Access

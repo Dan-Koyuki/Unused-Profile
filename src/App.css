@@ -7,6 +7,10 @@
   font-family: 'Nunito', sans-serif;
 }
 
+html, body {
+  margin: 0;
+}
+
 .App {
   background-color: grey;
   background-size: cover;
