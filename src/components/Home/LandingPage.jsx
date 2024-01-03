@@ -1,5 +1,5 @@
 import React from 'react';
-import { LandPageContainer } from '../styles/LandingStyle';
+import { LandPageContainer } from '../../styles/LandingStyle';
 import { useNavigate } from 'react-router-dom'
 
 const LandingPage = () => {

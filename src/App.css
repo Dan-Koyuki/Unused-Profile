@@ -12,7 +12,7 @@ html, body {
 }
 
 .App {
-  background-color: grey;
   background-size: cover;
+  height: 100vh;
 }
 

@@ -1,8 +1,9 @@
 import React from 'react';
 import { HomeStyled } from '../../styles/Home';
-import Navbar from './Navbar';
-import Description from './Description';
-import About from './About';
+import Navbar from '../Nav/TopNavbar';
+import Description from '../Elements/Description';
+import About from '../Elements/About';
+import BottomNavbar from '../Nav/BottomNavbar';
 
 const Home = () => {
   return (
@@ -26,7 +27,7 @@ const Home = () => {
         Bottom Navbar
         // Contact
        */}
-       {/* <BotNav /> */}
+       <BottomNavbar />
     </HomeStyled>
   );
 }

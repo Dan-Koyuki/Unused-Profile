@@ -1,34 +1,26 @@
 import React from "react";
-import { LinkNavbar, LogoNavbar, StyledNavbar } from "../../styles/Navbar";
+import { LinkNavbar, LogoNavbar, StyledNavbar } from "../../styles/TopNavbar";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
   return (
     <StyledNavbar>
       <LogoNavbar>
-        <img src="https://wallpapercave.com/uwp/uwp4090068.png" alt="Logo" />
-        <span>Dan Koyuki</span>
+        <a href="#">
+          <img src="https://wallpapercave.com/uwp/uwp4090068.png" alt="Logo" />
+          <span>Dan Koyuki</span>
+        </a>
       </LogoNavbar>
       <LinkNavbar>
         <Link
-          to="description-section"
+          to="#"
           smooth={true}
           duration={500}
           spy={true}
           exact="true"
           offset={-65}
         >
-          Description
-        </Link>
-        <Link
-          to="about-section"
-          smooth={true}
-          duration={500}
-          spy={true}
-          exact="true"
-          offset={-65}
-        >
-          About
+          About Me
         </Link>
         <Link
           to="#"
@@ -38,7 +30,7 @@ const Navbar = () => {
           exact="true"
           offset={-65}
         >
-          Project
+          Skill
         </Link>
         <Link
           to="#"
@@ -48,7 +40,17 @@ const Navbar = () => {
           exact="true"
           offset={-65}
         >
-          Contact
+          Portfolio
+        </Link>
+        <Link
+          to="#"
+          smooth={true}
+          duration={500}
+          spy={true}
+          exact="true"
+          offset={-65}
+        >
+          Resume
         </Link>
       </LinkNavbar>
     </StyledNavbar>
