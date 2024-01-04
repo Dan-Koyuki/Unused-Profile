@@ -1,16 +1,13 @@
 import React from 'react';
+import { StyledAbout, StyledTitle } from '../../styles/About';
 
 const About = () => {
   return ( 
-    <div>
-      <p>About</p>
-      <p>About</p>
-      <p>About</p>
-      <p>About</p>
-      <p>About</p>
-      <p>About</p>
-      <p>About</p>
-    </div>
+    <StyledAbout>
+      <StyledTitle>
+        <h2>About Me</h2>
+      </StyledTitle>
+    </StyledAbout>
   );
 }
  

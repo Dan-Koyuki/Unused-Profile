@@ -13,7 +13,7 @@ const Navbar = () => {
       </LogoNavbar>
       <LinkNavbar>
         <Link
-          to="#"
+          to="about-section"
           smooth={true}
           duration={500}
           spy={true}
