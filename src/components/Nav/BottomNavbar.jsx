@@ -9,6 +9,7 @@ import { IoLogoWhatsapp } from 'react-icons/io'
 const BottomNavbar = () => {
   return (
     <StyledBotNav>
+      <p>Contact Me by</p>
       <StyledConnect>
         <Link to={'https://wa.me/6282116424576'}>
           <StyledIcon>

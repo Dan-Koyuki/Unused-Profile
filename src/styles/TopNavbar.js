@@ -26,6 +26,7 @@ export const LogoNavbar = styled.div`
     flex-direction: row;
     align-items: center;
     text-decoration: none;
+    cursor: pointer;
   }
 
   img{

@@ -6,16 +6,23 @@ const Navbar = () => {
   return (
     <StyledNavbar>
       <LogoNavbar>
-        <a href="#">
+        <Link
+          to="intro-section"
+          smooth={true}
+          duration={500}
+          spy={true}
+          exact="true"
+          offset={-65}
+        >
           <img src="https://wallpapercave.com/uwp/uwp4090068.png" alt="Logo" />
           <span>Dan Koyuki</span>
-        </a>
+        </Link>
       </LogoNavbar>
       <LinkNavbar>
         <Link
           to="about-section"
           smooth={true}
-          duration={500}
+          duration={1200}
           spy={true}
           exact="true"
           offset={-65}
@@ -23,7 +30,7 @@ const Navbar = () => {
           About Me
         </Link>
         <Link
-          to="#"
+          to="skill-section"
           smooth={true}
           duration={500}
           spy={true}
@@ -33,7 +40,7 @@ const Navbar = () => {
           Skill
         </Link>
         <Link
-          to="#"
+          to="project-section"
           smooth={true}
           duration={500}
           spy={true}
@@ -44,11 +51,6 @@ const Navbar = () => {
         </Link>
         <Link
           to="#"
-          smooth={true}
-          duration={500}
-          spy={true}
-          exact="true"
-          offset={-65}
         >
           Resume
         </Link>

@@ -4,7 +4,7 @@ export const StyledBotNav = styled.nav`
   display: flex;
   flex-direction: column;
   margin: 0;
-  padding: 0.75rem;
+  padding: 0.25rem;
   justify-content: center;
   align-items: center;
   position: sticky;
