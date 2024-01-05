@@ -54,6 +54,11 @@ const Navbar = () => {
         >
           Resume
         </Link>
+        <Link
+          to="#"
+        >
+          Blog
+        </Link>
       </LinkNavbar>
     </StyledNavbar>
   );

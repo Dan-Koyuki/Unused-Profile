@@ -1,8 +1,13 @@
 import React from 'react';
+import { StyledTitle } from '../../styles/About';
 
 const Project = () => {
   return (
-    <>Project</>
+    <>
+      <StyledTitle>
+        <h2>Portfolio</h2>
+      </StyledTitle>
+    </>
   );
 }
  
