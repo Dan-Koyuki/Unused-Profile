@@ -20,11 +20,20 @@ export const TabButton = styled.button`
   background-color: transparent;
   cursor: pointer;
   font-size: 16px;
+  color: black;
+  /* Add other styles as needed */
+
+  /* Conditional styles for active tab */
+  ${props =>
+    props.active &&
+    `
+    color: blue; /* Change color for active tab */
+    /* Add other styles for active tab */
+  `}
 `
 
 export const Container = styled.div`
   margin: 0 0.4rem;
-  border: 1px black solid;
   display: flex;
   flex-direction: row;
   overflow-x: auto;
