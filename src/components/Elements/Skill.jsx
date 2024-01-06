@@ -11,7 +11,7 @@ const Skill = () => {
   return (
     <StyledSkill>
       <StyledTitle>
-        <h2>Skill</h2>
+        <h2>Skill (Placeholder)</h2>
       </StyledTitle>
       <StyledTab>
         <TabButton onClick={() => setIsTab('PL')}>Programming Language</TabButton>
