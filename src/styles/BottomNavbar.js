@@ -7,12 +7,12 @@ export const StyledBotNav = styled.nav`
   padding: 0.25rem;
   justify-content: center;
   align-items: center;
-  position: sticky;
   bottom: 0;
   width: 100%;
   background-color: black;
   border-radius: 5px;
   border: none;
+  z-index: 1000;
 
   p{
     color: white;

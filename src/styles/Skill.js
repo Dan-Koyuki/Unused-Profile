@@ -28,26 +28,19 @@ export const TabButton = styled.button`
     props.active &&
     `
     color: blue; /* Change color for active tab */
+    font-weight: bold;
     /* Add other styles for active tab */
   `}
 `
 
 export const Container = styled.div`
-  margin: 0 0.4rem;
+  margin-left: 0.4rem;
+  margin-right: 0.4rem;
   display: flex;
   flex-direction: row;
-  overflow-x: auto;
   padding: 0 0.5rem;
-  
-  /* Customizing scrollbar */
-  &::-webkit-scrollbar {
-    height: 8px; /* Adjust the height as needed */
-    width: 8px; /* Adjust the width as needed */
-  }
-
-  &::-webkit-scrollbar-thumb {
-    background-color: transparent; /* Set the thumb color as transparent */
-  }
+  z-index: 0;
+  margin-bottom: 0.4rem;
 
   img{
     height: 100%;

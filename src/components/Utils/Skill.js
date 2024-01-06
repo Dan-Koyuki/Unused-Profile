@@ -127,5 +127,10 @@ export const Language = [
     id: 3,
     name: 'Sunda',
     image: 'https://res.cloudinary.com/dankoyuki/image/upload/v1704504280/Chemy%20Ride/mzqqe8rmw1eqni6v543c.webp'
+  },
+  {
+    id: 4,
+    name: 'Japan',
+    image: 'https://res.cloudinary.com/dankoyuki/image/upload/v1704504280/Chemy%20Ride/mzqqe8rmw1eqni6v543c.webp'
   }
 ]

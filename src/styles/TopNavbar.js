@@ -13,6 +13,7 @@ export const StyledNavbar = styled.nav`
   background-color: black;
   border-radius: 5px;
   border: none;
+  z-index: 1000;
 `
 
 export const LogoNavbar = styled.div`
