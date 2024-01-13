@@ -2,37 +2,43 @@ export const framework = [
   {
     id: 1,
     name: "React.js",
-    image: 'https://res.cloudinary.com/dankoyuki/image/upload/v1704494582/Chemy%20Ride/pwufrfrnjj2qckgkeupv.webp' // still placeholder
+    image: 'https://res.cloudinary.com/dlz1ctt2n/image/upload/v1705100254/Logo%20Card/e58sgovzwi7u52rwlzae.png' // still placeholder
   },
   {
     id: 2,
     name: "Node.js",
-    image: 'https://res.cloudinary.com/dankoyuki/image/upload/v1704494582/Chemy%20Ride/lu4idshpxu9dobrruulm.webp'
+    image: 'https://res.cloudinary.com/dlz1ctt2n/image/upload/v1705100253/Logo%20Card/oejceush3nk7qxcjquhf.png'
   },
   {
     id: 3,
     name: "Next.js",
-    image: 'https://res.cloudinary.com/dankoyuki/image/upload/v1704494582/Chemy%20Ride/xr0ljtuyidowefp3dmwe.webp'
+    image: 'https://res.cloudinary.com/dlz1ctt2n/image/upload/v1705100253/Logo%20Card/ho4dr5m6omymvnx4w5kk.png'
   },
   {
     id: 4,
     name: "Flutter",
-    image: 'https://res.cloudinary.com/dankoyuki/image/upload/v1704494583/Chemy%20Ride/oomfkbknjvqkx1j2f1ik.webp'
+    image: 'https://res.cloudinary.com/dlz1ctt2n/image/upload/v1705112914/Logo%20Card/fdmg3bf92tcrfbokzhlc.png'
   },
   {
     id: 5,
     name: "Phaser.js",
-    image: 'https://res.cloudinary.com/dankoyuki/image/upload/v1704494582/Chemy%20Ride/fnlra15pwkruded83l27.webp'
+    image: 'https://res.cloudinary.com/dlz1ctt2n/image/upload/v1705100253/Logo%20Card/kacqmay37i1e8roseqay.png'
   },
   {
     id: 6,
     name: "Rails",
-    image: 'https://res.cloudinary.com/dankoyuki/image/upload/v1704494582/Chemy%20Ride/fzqmecbdvadp0pawbyp4.webp'
+    image: 'https://res.cloudinary.com/dlz1ctt2n/image/upload/v1705100254/Logo%20Card/o8vidlyiskl8kxdx3ioe.png'
   },
   {
     id: 7,
     name: 'JetPack Compose',
-    image: 'https://res.cloudinary.com/dankoyuki/image/upload/v1704505141/Chemy%20Ride/fag7qjn0oktdsmlvma8f.webp'
+    image: 'https://res.cloudinary.com/dlz1ctt2n/image/upload/v1705112410/Logo%20Card/hwwkjs60boegfxyl1ykl.png'
+  }
+  ,
+  {
+    id: 8,
+    name: 'Nest.js',
+    image: 'https://res.cloudinary.com/dlz1ctt2n/image/upload/v1705100253/Logo%20Card/xvdjp9vgjnpxkptnymgi.png'
   }
 ]
 
@@ -93,7 +99,7 @@ export const Tools = [
   {
     id: 4,
     name: 'MongoDB',
-    image: 'https://res.cloudinary.com/dankoyuki/image/upload/v1704501321/Chemy%20Ride/qpy0c5qvu16ouzm6aard.webp'
+    image: 'https://res.cloudinary.com/dlz1ctt2n/image/upload/v1705113138/Logo%20Card/vyh2z3xfmz7mgoeq5gro.png'
   },
   {
     id: 5,
@@ -128,9 +134,9 @@ export const Language = [
     name: 'Sunda',
     image: 'https://res.cloudinary.com/dankoyuki/image/upload/v1704504280/Chemy%20Ride/mzqqe8rmw1eqni6v543c.webp'
   },
-  {
-    id: 4,
-    name: 'Japan',
-    image: 'https://res.cloudinary.com/dankoyuki/image/upload/v1704504280/Chemy%20Ride/mzqqe8rmw1eqni6v543c.webp'
-  }
+  // {
+  //   id: 4,
+  //   name: 'Japan',
+  //   image: 'https://res.cloudinary.com/dankoyuki/image/upload/v1704504280/Chemy%20Ride/mzqqe8rmw1eqni6v543c.webp'
+  // }
 ]

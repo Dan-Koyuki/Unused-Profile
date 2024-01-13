@@ -41,7 +41,7 @@ const Skill = () => {
         <Swiper
           modules={[Navigation, Pagination, Scrollbar, A11y]}
           spaceBetween={15}
-          slidesPerView={4}
+          slidesPerView={3}
           navigation
           pagination={{ clickable: true }}
           grabCursor={true}

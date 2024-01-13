@@ -37,7 +37,6 @@ const BottomNavbar = () => {
           </StyledIcon>
         </Link>
       </StyledConnect>
-      <p>Created by Dan Koyuki</p>
     </StyledBotNav>
   );
 }

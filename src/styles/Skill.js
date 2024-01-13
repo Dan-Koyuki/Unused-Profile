@@ -21,6 +21,7 @@ export const TabButton = styled.button`
   cursor: pointer;
   font-size: 16px;
   color: black;
+  padding: 0.2rem;
   /* Add other styles as needed */
 
   /* Conditional styles for active tab */
@@ -29,6 +30,8 @@ export const TabButton = styled.button`
     `
     color: blue; /* Change color for active tab */
     font-weight: bold;
+    border-bottom: 5px ridge black;
+    border-right: 5px ridge black;
     /* Add other styles for active tab */
   `}
 `
@@ -45,8 +48,10 @@ export const Container = styled.div`
   img{
     height: 100%;
     width: 100%;
-    max-width: 275px;
-    max-height: 555px;
+    /* max-width: 275px;
+    max-height: 555px; */
+    max-width: 450px;
+    max-height: 450px;
     margin: 0 1rem;
   }
 `

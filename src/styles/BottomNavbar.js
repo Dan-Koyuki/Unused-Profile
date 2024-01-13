@@ -7,6 +7,7 @@ export const StyledBotNav = styled.nav`
   padding: 0.25rem;
   justify-content: center;
   align-items: center;
+  position: sticky;
   bottom: 0;
   width: 100%;
   background-color: black;
