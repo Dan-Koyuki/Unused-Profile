@@ -51,7 +51,7 @@ export const Container = styled.div`
     /* max-width: 275px;
     max-height: 555px; */
     max-width: 450px;
-    max-height: 450px;
+    max-height: 425px;
     margin: 0 1rem;
   }
 `

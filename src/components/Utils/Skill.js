@@ -46,37 +46,37 @@ export const PL = [
   {
     id: 1,
     name: "Java",
-    image: 'https://res.cloudinary.com/dankoyuki/image/upload/v1704501320/Chemy%20Ride/khrzgcfqrdkqpqwtaj5f.webp'
+    image: 'https://th.bing.com/th/id/OIP.7khrXvKlEjzsh2VKsc_cAAHaHa?rs=1&pid=ImgDetMain'
   },
   {
     id: 2,
     name: "JavaScript",
-    image: 'https://res.cloudinary.com/dankoyuki/image/upload/v1704501321/Chemy%20Ride/wmhbrpvmniskxlm9vobv.webp'
+    image: 'https://logosdownload.com/logo/javascript-logo-big.png'
   },
   {
     id: 3,
     name: "Ruby",
-    image: 'https://res.cloudinary.com/dankoyuki/image/upload/v1704501320/Chemy%20Ride/zfvchvempxuhvbmkxeko.webp'
+    image: 'https://cdn.icon-icons.com/icons2/2415/PNG/512/ruby_original_wordmark_logo_icon_146364.png'
   },
   {
     id: 4,
     name: "Python",
-    image: 'https://res.cloudinary.com/dankoyuki/image/upload/v1704494583/Chemy%20Ride/ddflmfvupbzn6ocroxwz.webp'
+    image: 'https://th.bing.com/th/id/R.9a8bd0fa820cc069f049829e093c016e?rik=NvH0xe7mTUlgvQ&riu=http%3a%2f%2fclipart-library.com%2fnew_gallery%2f289-2896071_python-logo-png-165709.png&ehk=aW7Pb2gc%2bysSZQp61jQfl77%2fq7MPVUC%2fFeEA%2bQt0R5I%3d&risl=&pid=ImgRaw&r=0'
   },
   {
     id: 5,
     name: "C++",
-    image: 'https://res.cloudinary.com/dankoyuki/image/upload/v1704501321/Chemy%20Ride/nnox3ktxhk28kdlvfyv0.webp'
+    image: 'https://th.bing.com/th/id/R.97352187770c232aa050971db73bcc8e?rik=HGHhGuSGV8AO6A&riu=http%3a%2f%2fwww.pngall.com%2fwp-content%2fuploads%2f2016%2f05%2fC-PNG-Image.png&ehk=9aPOWvmyJL5J0fuNb0eTgQlem3IehdX8m3kxWwYnIpM%3d&risl=&pid=ImgRaw&r=0'
   },
   {
     id: 6,
     name: "Dart",
-    image: 'https://res.cloudinary.com/dankoyuki/image/upload/v1704501320/Chemy%20Ride/qkmjdkwfgtgtzppntz1n.webp'
+    image: 'https://1.bp.blogspot.com/-GumDudA9xO4/YMObLReJ8ZI/AAAAAAAAA2Q/N4BuFa2H7XcdbntIhHZJ_xY88lqT7KxsgCLcBGAsYHQ/s1280/0001-2740736675_20210611_224402_0000.png'
   },
   {
     id: 7,
     name: 'Kotlin',
-    image: 'https://res.cloudinary.com/dankoyuki/image/upload/v1704502060/Chemy%20Ride/zq8w5e0nnrkbznlomaxy.webp'
+    image: 'https://th.bing.com/th/id/OIP.LA0aW31tsq7YhTBUgP6F5AHaHa?rs=1&pid=ImgDetMain'
   }
 ]
 
@@ -84,17 +84,17 @@ export const Tools = [
   {
     id: 1,
     name: "Git",
-    image: 'https://res.cloudinary.com/dankoyuki/image/upload/v1704501320/Chemy%20Ride/q1p8dhlfc4fjiznggnwm.webp'
+    image: 'https://gitforwindows.org/img/gwindows_logo.png'
   },
   {
     id: 2,
     name: "Express",
-    image: 'https://res.cloudinary.com/dankoyuki/image/upload/v1704501320/Chemy%20Ride/okfcke12vkzyu0mcibw3.webp'
+    image: 'https://ajeetchaulagain.com/static/7cb4af597964b0911fe71cb2f8148d64/87351/express-js.png'
   },
   {
     id: 3,
     name: "JSON Web Token",
-    image: 'https://res.cloudinary.com/dankoyuki/image/upload/v1704501320/Chemy%20Ride/qltmwpcbge0qrdeqeecy.webp'
+    image: 'https://1.bp.blogspot.com/-9jhEkn_uApY/Xxx35kNQB1I/AAAAAAAAMKk/8Jrv75ClwUoh8bkUncTzOJIyH2rU6RkjQCLcBGAsYHQ/s1280/jwt.png'
   },
   {
     id: 4,
@@ -104,18 +104,18 @@ export const Tools = [
   {
     id: 5,
     name: 'HTML',
-    image: 'https://res.cloudinary.com/dankoyuki/image/upload/v1704501321/Chemy%20Ride/boy355lfldn1ldqvsq9d.webp'
+    image: 'https://clipartcraft.com/images/html5-logo-png-transparent-5.png'
   },
   {
     id: 6,
     name: 'CSS',
-    image: 'https://res.cloudinary.com/dankoyuki/image/upload/v1704501321/Chemy%20Ride/m23rmg9cs1c1f1qi0oeg.webp'
+    image: 'https://quiksite.com/wp-content/uploads/2016/09/css3.png'
   },
-  {
-    id: 7,
-    name: "Javax Swing",
-    image: 'https://res.cloudinary.com/dankoyuki/image/upload/v1704494582/Chemy%20Ride/qi29wwfepnq3uccd1fyg.webp'
-  }
+  // {
+  //   id: 7,
+  //   name: "Javax Swing",
+  //   image: 'https://res.cloudinary.com/dankoyuki/image/upload/v1704494582/Chemy%20Ride/qi29wwfepnq3uccd1fyg.webp'
+  // }
 ]
 
 export const Language = [

@@ -1,6 +1,6 @@
 import React from "react";
-import { LinkNavbar, LogoNavbar, StyledNavbar } from "../../styles/TopNavbar";
 import { Link } from "react-scroll";
+import { LogoNavbar, StyledNavbar, LinkNavbar } from "../../styles/Navbar";
 
 const Navbar = () => {
   return (
