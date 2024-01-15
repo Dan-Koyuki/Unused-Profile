@@ -41,18 +41,18 @@ export const portfolio = [
     backend: "Node.js, Express.js, MongoDB",
     link: 'https://frontend-frosty.vercel.app/'
   },
-  {
-    id: 4,
-    name: "Profiler",
-    images: [
-      "",
-      "",
-      "",
-      "",
-    ],
-    desc: "My Web Profile.",
-    frontend: "React.js",
-    backend: "-",
-    link: ''
-  }
+  // {
+  //   id: 4,
+  //   name: "Profiler",
+  //   images: [
+  //     "",
+  //     "",
+  //     "",
+  //     "",
+  //   ],
+  //   desc: "My Web Profile.",
+  //   frontend: "React.js",
+  //   backend: "-",
+  //   link: ''
+  // }
 ];

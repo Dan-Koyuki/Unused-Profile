@@ -11,7 +11,7 @@ const BottomNavbar = () => {
     <StyledBotNav>
       <p>Contact Me by</p>
       <StyledConnect>
-        <Link to={'https://wa.me/6282116424576'}>
+        <Link to={''}>
           <StyledIcon>
             <IoLogoWhatsapp />
           </StyledIcon>
