@@ -72,10 +72,14 @@ export const PortImg = styled.img`
   max-height: 555px; */
   max-width: 550px;
   max-height: 550px;
+  object-fit: contain;
 `
 
 export const PortDesc = styled.div`
   margin: 0 2rem;
   max-width: 50%;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `

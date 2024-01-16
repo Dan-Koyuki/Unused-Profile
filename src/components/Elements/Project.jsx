@@ -4,7 +4,14 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.css"; // Import Swiper CSS
 import { portfolio } from "../Utils/Portfolio";
 import { Pagination, A11y, EffectCoverflow } from "swiper/modules";
-import { PortDesc, PortImg, PortfolioContainer, StyledSkill, StyledTab, TabButton } from "../../styles/Skill";
+import {
+  PortDesc,
+  PortImg,
+  PortfolioContainer,
+  StyledSkill,
+  StyledTab,
+  TabButton,
+} from "../../styles/Skill";
 
 const Project = () => {
   const [isTab, setIsTab] = useState(1);
@@ -38,14 +45,14 @@ const Project = () => {
       </StyledTab>
       {portfolio.map((project) =>
         project.id === isTab ? (
-          <PortfolioContainer className={isTab === project.id ? 'active' : ''}>
+          <PortfolioContainer className={isTab === project.id ? "active" : ""}>
             <PortDesc>
               <Swiper
                 modules={[EffectCoverflow, Pagination, A11y]}
-                effect={'coverflow'}
+                effect={"coverflow"}
                 centeredSlides={true}
                 grabCursor={true}
-                slidesPerView={'auto'}
+                slidesPerView={"auto"}
                 coverflowEffect={{
                   rotate: 0,
                   stretch: 0,
@@ -54,6 +61,7 @@ const Project = () => {
                   slideShadows: true,
                 }}
                 loop={true}
+                style={{ height: "300px" }}
               >
                 {project.images?.map((image, index) => (
                   <SwiperSlide key={index}>
