@@ -1,62 +1,75 @@
-import React from 'react';
-import { StyledTitle } from '../../styles/About';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/swiper-bundle.css'; // Import Swiper CSS
-import { portfolio } from '../Utils/Portfolio';
-import { Navigation, Pagination, A11y, EffectCoverflow } from 'swiper/modules';
-import { Container } from '../../styles/Portfolio';
+import React, { useState } from "react";
+import { StyledTitle } from "../../styles/About";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/swiper-bundle.css"; // Import Swiper CSS
+import { portfolio } from "../Utils/Portfolio";
+import { Pagination, A11y, EffectCoverflow } from "swiper/modules";
+import { PortDesc, PortImg, PortfolioContainer, StyledSkill, StyledTab, TabButton } from "../../styles/Skill";
 
 const Project = () => {
+  const [isTab, setIsTab] = useState(1);
 
   const handleVisit = (link) => {
-    window.open(link)
-  }
+    window.open(link);
+  };
 
   return (
-    <>
+    <StyledSkill>
       <StyledTitle>
         <h2>Portfolio</h2>
       </StyledTitle>
-      <Container>
+      <StyledTab>
         <Swiper
-          modules={[Navigation, Pagination, A11y]}
-          slidesPerView={1}
-          navigation
-          centeredSlides={true}
+          modules={[Pagination, A11y]}
+          slidesPerView={3}
+          grabCursor={true}
         >
-          {portfolio.map(project => (
+          {portfolio.map((project) => (
             <SwiperSlide key={project.id}>
-              <h2>{project.name}</h2>
-              <Swiper
-                modules={[Navigation, A11y, Pagination, EffectCoverflow]}
-                effect={'coverflow'}
-                grabCursor={true}
-                centeredSlides={true}
-                slidesPerView={'auto'}
-                loop={true}
-                coverflowEffect={{
-                  "rotate": 0,
-                  "stretch": 0,
-                  "depth": 1000,
-                  "modifier": 1,
-                  "slideShadows": true
-                }}
+              <TabButton
+                active={isTab === project.id}
+                onClick={() => setIsTab(project.id)}
               >
-                {project.images.map((image, index) => (
-                  <SwiperSlide key={index}>
-                    <img src={image} alt={`Project ${project.id} - Image ${index}`} />
-                  </SwiperSlide>
-                ))}
-              </Swiper>
-              <h3>{project.desc}</h3>
-              <h3>This Project is created using {project.frontend} along with {project.backend} as Backend.</h3>
-              <button onClick={() => handleVisit(project.link)}>Visit</button>
+                {project.name}
+              </TabButton>
             </SwiperSlide>
           ))}
         </Swiper>
-      </Container>
-    </>
+      </StyledTab>
+      {portfolio.map((project) =>
+        project.id === isTab ? (
+          <PortfolioContainer className={isTab === project.id ? 'active' : ''}>
+            <PortDesc>
+              <Swiper
+                modules={[EffectCoverflow, Pagination, A11y]}
+                effect={'coverflow'}
+                centeredSlides={true}
+                grabCursor={true}
+                slidesPerView={'auto'}
+                coverflowEffect={{
+                  rotate: 0,
+                  stretch: 0,
+                  depth: 100,
+                  modifier: 2,
+                  slideShadows: true,
+                }}
+                loop={true}
+              >
+                {project.images?.map((image, index) => (
+                  <SwiperSlide key={index}>
+                    <PortImg src={image} />
+                  </SwiperSlide>
+                ))}
+              </Swiper>
+            </PortDesc>
+            <PortDesc>
+              <p>{project.desc}</p>
+            </PortDesc>
+          </PortfolioContainer>
+        ) : null
+      )}
+    </StyledSkill>
   );
-}
- 
+};
+
 export default Project;

@@ -30,8 +30,7 @@ export const TabButton = styled.button`
     `
     color: blue; /* Change color for active tab */
     font-weight: bold;
-    border-bottom: 5px ridge black;
-    border-right: 5px ridge black;
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
     /* Add other styles for active tab */
   `}
 `
@@ -54,4 +53,29 @@ export const Container = styled.div`
     max-height: 425px;
     margin: 0 1rem;
   }
+`
+
+export const PortfolioContainer = styled.div`
+  margin-left: 3rem;
+  margin-right: 3rem;
+  display: flex;
+  flex-direction: row;
+  padding: 0 0.5rem;
+  z-index: 0;
+  margin-bottom: 1rem;
+`
+
+export const PortImg = styled.img`
+  height: 100%;
+  width: 100%;
+  /* max-width: 275px;
+  max-height: 555px; */
+  max-width: 550px;
+  max-height: 550px;
+`
+
+export const PortDesc = styled.div`
+  margin: 0 2rem;
+  max-width: 50%;
+  text-align: center;
 `

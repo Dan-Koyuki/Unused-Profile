@@ -3,7 +3,7 @@ export const portfolio = [
     id: 1,
     name: "Atlas Mobilizer",
     images: [
-      "https://res.cloudinary.com/dankoyuki/image/upload/v1704532642/Screenshot/xmk3apt3nicwalj1ugif.png",
+      "https://res.cloudinary.com/dlz1ctt2n/image/upload/v1705363259/Portfolio/eihxszklnnyggeriokx7.png",
       "https://res.cloudinary.com/dankoyuki/image/upload/v1704532641/Screenshot/geyhze98fu93lrkfbgda.png",
       "https://res.cloudinary.com/dankoyuki/image/upload/v1704532641/Screenshot/geyhze98fu93lrkfbgda.png",
       "https://res.cloudinary.com/dankoyuki/image/upload/v1704532641/Screenshot/geyhze98fu93lrkfbgda.png",
@@ -41,18 +41,18 @@ export const portfolio = [
     backend: "Node.js, Express.js, MongoDB",
     link: 'https://frontend-frosty.vercel.app/'
   },
-  // {
-  //   id: 4,
-  //   name: "Profiler",
-  //   images: [
-  //     "",
-  //     "",
-  //     "",
-  //     "",
-  //   ],
-  //   desc: "My Web Profile.",
-  //   frontend: "React.js",
-  //   backend: "-",
-  //   link: ''
-  // }
+  {
+    id: 4,
+    name: "Profiler",
+    images: [
+      "",
+      "",
+      "",
+      "",
+    ],
+    desc: "My Web Profile.",
+    frontend: "React.js",
+    backend: "-",
+    link: ''
+  }
 ];

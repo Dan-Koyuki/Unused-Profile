@@ -16,7 +16,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
 const Skill = () => {
-  const [isTab, setIsTab] = useState("PL");
+  const [isTab, setIsTab] = useState("F");
 
   return (
     <StyledSkill>
