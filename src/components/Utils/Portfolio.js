@@ -3,10 +3,7 @@ export const portfolio = [
     id: 1,
     name: "Atlas Mobilizer",
     images: [
-      "https://res.cloudinary.com/dlz1ctt2n/image/upload/v1705363259/Portfolio/eihxszklnnyggeriokx7.png",
-      "https://res.cloudinary.com/dankoyuki/image/upload/v1704532641/Screenshot/geyhze98fu93lrkfbgda.png",
-      "https://res.cloudinary.com/dankoyuki/image/upload/v1704532641/Screenshot/geyhze98fu93lrkfbgda.png",
-      "https://res.cloudinary.com/dankoyuki/image/upload/v1704532641/Screenshot/geyhze98fu93lrkfbgda.png",
+      "https://res.cloudinary.com/dlz1ctt2n/image/upload/v1705363259/Portfolio/eihxszklnnyggeriokx7.png"
     ],
     desc: "Atlas Mobilizer is an Android project designed to facilitate CRUD (Create, Read, Update, Delete) operations of MongoDB Atlas through an Android UI.",
     frontend: "Kotlin - Android",
