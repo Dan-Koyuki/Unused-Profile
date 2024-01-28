@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
+import { Link as Path} from 'react-router-dom';
 import { LogoNavbar, StyledNavbar, LinkNavbar } from "../../styles/Navbar";
 
 const Navbar = () => {
@@ -49,16 +50,8 @@ const Navbar = () => {
         >
           Portfolio
         </Link>
-        <Link
-          to="#"
-        >
-          Resume
-        </Link>
-        <Link
-          to="#"
-        >
-          Blog
-        </Link>
+        <Path to="/resume">Resume</Path>
+        <Link to="#">Blog</Link>
       </LinkNavbar>
     </StyledNavbar>
   );
