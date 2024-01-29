@@ -6,6 +6,7 @@ export const ResumeBackground = styled.div`
   background-color: rgba(128, 128, 128, 0.5);
   height: 100vh;
   width: 100%;
+  background-size: cover;
 `;
 
 export const ResumeContainer = styled.div`
