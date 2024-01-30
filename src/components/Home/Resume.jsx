@@ -26,6 +26,11 @@ const Resume = () => {
             <ItemDescription>Eager to leverage my skills and education in Informatics to contribute to dynamic projects, solve complex problems, and create innovative solutions.</ItemDescription>
             <ItemDescription>Committed to continuous learning and growth in the fast-paced world of technology.</ItemDescription>
             <ItemTitle>EDUCATION</ItemTitle>
+            <ItemDescription>Pursuing Bachelor of Informatic</ItemDescription>
+            <ItemDescription>Informatic Engineering</ItemDescription>
+            <ItemDescription>State Islamic University of Sunan Gunung Djati</ItemDescription>
+            <ItemDescription>2021 - Current</ItemDescription>
+            <ItemDescription>Bandung, West Java</ItemDescription>
             <ItemTitle>SKILLS</ItemTitle>
           </ItemContainer>
         </DetailsContainer>
