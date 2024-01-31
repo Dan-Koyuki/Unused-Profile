@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { LandPageContainer } from '../../styles/LandingStyle';
+import { AccessKey, LandPageContainer } from '../../styles/LandingStyle';
 import { useNavigate } from 'react-router-dom'
 import useSound from 'use-sound'
 import Authorize from '../Utils/Authorize.mp3'
@@ -35,6 +35,7 @@ const LandingPage = () => {
 
   return (
     <LandPageContainer>
+      <AccessKey src='https://res.cloudinary.com/dankoyuki/image/upload/v1706689636/Custom%20Card/nzeeyvcglufwb6l1vhe2.png' onClick={handleAccess}/>
       <button onClick={handleAccess}>Access</button>
       {isSound ?
         <button onClick={handleSound}>TurnOff</button> :

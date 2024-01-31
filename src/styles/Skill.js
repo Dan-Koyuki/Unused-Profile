@@ -47,10 +47,10 @@ export const Container = styled.div`
   img{
     height: 100%;
     width: 100%;
-    /* max-width: 275px;
-    max-height: 555px; */
-    max-width: 450px;
-    max-height: 425px;
+    max-width: 275px;
+    max-height: 555px;
+    /* max-width: 450px;
+    max-height: 425px; */
     margin: 0 1rem;
   }
 `

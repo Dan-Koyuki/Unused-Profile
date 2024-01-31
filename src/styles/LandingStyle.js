@@ -17,3 +17,9 @@ export const LandPageContainer = styled.div`
     max-height: 900px;
   }
 `
+
+export const AccessKey = styled.img`
+  max-width: 900px;
+  width: 100%;
+  cursor: pointer;
+`

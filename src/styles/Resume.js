@@ -1,12 +1,17 @@
 import styled from 'styled-components';
 
 export const ResumeBackground = styled.div`
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   margin: 0;
   padding: 1rem 2rem;
   background-color: rgba(128, 128, 128, 0.5);
-  height: 100vh;
-  width: 100%;
+  background-repeat: repeat-y;
   background-size: cover;
+  overflow-y: auto; /* Enable vertical scrolling if content exceeds screen height */
 `;
 
 export const ResumeContainer = styled.div`

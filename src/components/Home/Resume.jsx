@@ -32,6 +32,9 @@ const Resume = () => {
             <ItemDescription>2021 - Current</ItemDescription>
             <ItemDescription>Bandung, West Java</ItemDescription>
             <ItemTitle>SKILLS</ItemTitle>
+            <ul>
+              <li><ItemDescription>Java</ItemDescription></li>
+            </ul>
           </ItemContainer>
         </DetailsContainer>
       </ResumeContainer>

@@ -40,11 +40,12 @@ const Skill = () => {
       <Container>
         <Swiper
           modules={[Navigation, Pagination, Scrollbar, A11y]}
-          spaceBetween={15}
-          slidesPerView={3}
+          spaceBetween={0}
+          slidesPerView={1}
           navigation
           pagination={{ clickable: true }}
           grabCursor={true}
+          centeredSlides={true}
         >
           {isTab === "PL"
           ? PL.map((language) => (
